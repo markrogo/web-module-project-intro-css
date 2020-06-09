@@ -1,4 +1,3 @@
-/*
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -43,56 +42,132 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 } 
-*/
+
 /* The good part starts here */
 
 body {
-    font-family: 'Roboto-Mono', monospace;
+    font-family: 'Roboto Mono', monospace;
 }
 
-h1.headline {
-    font-family: 'Chelsea-Market', sans-serif;
-    font-size: 2rem;
-    color:blue;
-} 
 
-.guide {
-    }
-        
-.header-image {
-    display: inline;
-    width: 15%;
-    height: 15%;
-    border-radius: 50%;
-}
-nav {
-    width: 100%;
+.container {
+    width: 600px;
     margin: 0 auto;
+      }
+
+.container-bottom {
+    background-color: ;
 }
-nav a {
+
+
+.container nav a {
     display: inline-block;
-    margin: 0 10px;
-    padding: 15px;
+    margin: 0 5%;
+    margin-top: 2rem;
+    margin-bottom: 2.5rem;
+    padding: .6rem 1.3rem;
     border-radius: 10px;
     color: white;
     text-decoration: none;
-    margin-bottom: 50px;
+    font-size: .9rem;
+    text-align: center;
+    line-height: 1.1rem;
     background-color:  #F87B99;
 }
+
+
+
+nav a.plan {
+    margin-left: -10%;
+    margin-right: 20%;
+    background-color:  #FF764E;
+}
+
 
 nav a.learn {
     background-color:  #5ED3EB;
 }
 
-
-nav a.plan {
-    background-color:  #FF764E;
-}
-
-
 nav a.get-involved {
+    margin-left: 20%;
+    margin-right: -10%;
     background-color:  #FFCD69;
+
+    
 }
+
+.header-image {
+    float: left;
+    /* display: inline; */
+    width: 25%;
+    height: 25%;
+    margin: 1rem;
+    margin-bottom: 2.5em;
+    border-radius: 50%;
+}
+
+h1.headline {
+    font-family: 'Chelsea Market', sans-serif;
+    font-size: 2.6rem;
+    margin-left: 25%;
+    margin-right: 10%;
+    text-align: center;
+   
+} 
+
+.guide {
+    width: 80%;
+    margin: 0 auto;
+    }
+        
+
+
+.intro {
+    text-align: center;
+    margin-left: 35%;
+    margin-right: 15%;
+    padding: .2rem;
+    font-size: .9rem;
+    
+   
+}
+.body-text {
+    clear: left;
+    margin-left: 0%;
+    margin-right: 0%;
+    padding: 1rem;
+    font-size: 0.9rem;
+    line-height: 1.1em;
+    background-color:#DDB9A3 ;
+    color: white;
+    margin-bottom: 1rem;
+    text-align: center;
+
+}
+
+
+/* used to display the centered images */
+.icon {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%;
+}
+/* text for the centered images */
+.caption {
+    margin-left: 38%;
+    margin-right: 38%;
+    margin-bottom: 5%;
+    font-size: .7rem;
+    line-height: 1.2em;
+    text-align: center;
+}
+
+.caption a{
+    font-weight: bold;
+    text-decoration: none;
+}
+
 /*
 footer {
     width: 100%;
@@ -104,35 +179,4 @@ footer .footer-image {
     margin: 0px -50px 0px -200px;
 }
 */ 
-.icon {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 10%;
-}
-
-.intro {
-    margin-left: 5%;
-    margin-right: 5%;
-    padding: .2rem;
-    font-size: 1rem;
-   
-}
-.body-text {
-    margin-left: 5%;
-    margin-right: 5%;
-    padding: .5rem;
-    font-size: 1rem;
-    background-color:#DDB9A3 ;
-    color: white;
-    margin-bottom: 1rem;
-}
-
-
-.caption {
-    margin-left: 35%;
-    margin-right: 35%;
-    font-size: .8rem;
-    text-align: center;
-}
 
