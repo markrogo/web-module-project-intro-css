@@ -53,7 +53,7 @@ body {
 .container {
     width: 100%;
     margin: 0 auto;
-      }
+   }
 
 
 
@@ -73,6 +73,10 @@ body {
     background-color:  #F87B99;
 }
 
+.container nav a:hover {
+    background-color: cornflowerblue;
+}
+
 
 
 nav a.plan {
@@ -89,9 +93,7 @@ nav a.learn {
 nav a.get-involved {
     margin-left: 10%;
     margin-right: 0%;
-    background-color:  #FFCD69;
-
-    
+    background-color:  #FFCD69;    
 }
 
 .header-image {
@@ -102,6 +104,12 @@ nav a.get-involved {
     margin: 1rem;
     margin-bottom: 2.5em;
     border-radius: 50%;
+}
+
+.header-image:hover {
+    width: 35%;
+    height: 35%;
+    transition: 2s;
 }
 
 h1.headline {
@@ -166,7 +174,7 @@ h1.headline {
   
     text-decoration: none;
     font-weight: 700;
-    font-style: italic;
+    /* font-style: italic; */
     
 }
 
