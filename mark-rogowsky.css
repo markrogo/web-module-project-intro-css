@@ -1,0 +1,199 @@
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit; 
+	vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+} 
+
+/* The good part starts here */
+
+body {
+    font-family: 'Roboto Mono', monospace;
+}
+
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+   }
+
+
+
+
+.container nav a {
+    display: inline-block;
+    margin: 0 5%;
+    margin-top: 2rem;
+    margin-bottom: 2.5rem;
+    padding: .4rem 1.3rem;
+    border-radius: 10px;
+    color: white;
+    text-decoration: none;
+    font-size: .9rem;
+    text-align: center;
+    line-height: 1.1rem;
+    background-color:  #F87B99;
+}
+
+.container nav a:hover {
+    background-color: cornflowerblue;
+}
+
+
+
+nav a.plan {
+    margin-left: 17%;
+    margin-right: 10%;
+    background-color:  #FF764E;
+}
+
+
+nav a.learn {
+    background-color:  #5ED3EB;
+}
+
+nav a.get-involved {
+    margin-left: 10%;
+    margin-right: 0%;
+    background-color:  #FFCD69;    
+}
+
+.header-image {
+    float: left;
+    /* display: inline; */
+    width: 25%;
+    height: 25%;
+    margin: 1rem;
+    margin-bottom: 2.5em;
+    border-radius: 50%;
+}
+
+.header-image:hover {
+    width: 35%;
+    height: 35%;
+    transition: 2s;
+}
+
+h1.headline {
+    font-family: 'Chelsea Market', sans-serif;
+    font-size: 2.6rem;
+    margin-left: 30%;
+    margin-right: 10%;
+    text-align: center;
+   
+} 
+
+.guide {
+    width: 80%;
+    margin: 0 auto;
+    }
+        
+
+
+.intro {
+    text-align: center;
+    margin-left: 35%;
+    margin-right: 10%;
+    padding: .2rem;
+    font-size: .9rem;
+    
+   
+}
+.body-text {
+    clear: left;
+    margin-left: 0%;
+    margin-right: 0%;
+    padding: 1rem;
+    font-size: 0.9rem;
+    line-height: 1.1em;
+    background-color:#DDB9A3 ;
+    color: white;
+    margin-bottom: 1rem;
+    text-align: center;
+
+}
+
+
+
+/* used to display the centered images */
+.icon {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%;
+}
+/* text for the centered images */
+.caption {
+    margin-left: 38%;
+    margin-right: 38%;
+    margin-bottom: 5%;
+    font-size: .65rem;
+    line-height: 1.2em;
+    text-align: center;
+}
+
+.caption a{
+  
+    text-decoration: none;
+    font-weight: 700;
+    /* font-style: italic; */
+    
+}
+
+
+/* footer {
+    width: 100%;
+
+} */
+
+.container-bottom {
+    background-color: #F9E7DC;
+}
+footer .footer-image {
+  
+    width: 100%;
+    height: 13rem;
+    object-fit:cover;
+    object-position: 50% 15%; 
+    background-color: #F9E7DC;
+}
+   */ 
+
